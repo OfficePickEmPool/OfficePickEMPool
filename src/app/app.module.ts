@@ -1,8 +1,4 @@
-import {
-  NgModule,
-  NgModuleFactoryLoader,
-  NO_ERRORS_SCHEMA,
-} from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
 import { NativeScriptHttpClientModule } from 'nativescript-angular/http-client';
 import { NativeScriptFormsModule } from 'nativescript-angular/forms';
@@ -19,24 +15,24 @@ import { NativeScriptUIListViewModule } from 'nativescript-ui-listview/angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { UsersService } from './shared/users.service';
-import { AppService } from './shared/app.service';
-import { SubscriptionService } from './shared/subscription.service';
-import { LeagueService } from './shared/league.service';
-import { NotesService } from './shared/notes.service';
-import { SchedulesService } from './shared/schedules.service';
-import { ScoreService } from './shared/score.service';
-import { MakePickService } from './shared/makePick.service';
-import { InviteService } from './shared/invite.service';
-import { ViewPlayersService } from './shared/viewplayers.service';
-import { HeadToHeadService } from './shared/headtohead.service';
-import { StatisticsService } from './shared/statistics.service';
-import { LeaderService } from './shared/leader.service';
-import { ContactService } from './shared/contact.service';
-import { PlayoffService } from './shared/playoff.service';
-import { ChatService } from './shared/chat.service';
+// import { UsersService } from './shared/users.service';
+// import { AppService } from './shared/app.service';
+// import { SubscriptionService } from './shared/subscription.service';
+// import { LeagueService } from './shared/league.service';
+// import { NotesService } from './shared/notes.service';
+// import { SchedulesService } from './shared/schedules.service';
+// import { ScoreService } from './shared/score.service';
+// import { MakePickService } from './shared/makePick.service';
+// import { InviteService } from './shared/invite.service';
+// import { ViewPlayersService } from './shared/viewplayers.service';
+// import { HeadToHeadService } from './shared/headtohead.service';
+// import { StatisticsService } from './shared/statistics.service';
+// import { LeaderService } from './shared/leader.service';
+// import { ContactService } from './shared/contact.service';
+// import { PlayoffService } from './shared/playoff.service';
+// import { ChatService } from './shared/chat.service';
 
-import {} from './component/login/login.component';
+// import { LoginComponent } from './component/login/login.component';
 // import { HomeComponent } from './component/home/home.component';
 // import { RegisterComponent } from './component/register/register.component';
 // import { ForgotpasswordComponent } from './component/forgotpassword/forgotpassword.component';
@@ -79,7 +75,7 @@ import {} from './component/login/login.component';
 // import { ContactofficepickempoolComponent } from './component/contactofficepickempool/contactofficepickempool.component';
 // import { InvitenewplayerComponent } from './component/invitenewplayer/invitenewplayer.component';
 // import { PlayoffComponent } from './component/playoff/playoff.component';
-// import { WelcomeComponent } from './component/welcome/welcome.component';
+import { WelcomeComponent } from './component/welcome/welcome.component';
 // import { ChatdashboardComponent } from './component/chatdashboard/chatdashboard.component';
 // import { ChathomeComponent } from './component/chathome/chathome.component';
 // import { NewchatComponent } from './component/newchat/newchat.component';
@@ -100,7 +96,7 @@ import {} from './component/login/login.component';
   ],
   declarations: [
     AppComponent,
-    LoginComponent,
+    // LoginComponent,
     // HomeComponent,
     // RegisterComponent,
     // ForgotpasswordComponent,
@@ -143,29 +139,29 @@ import {} from './component/login/login.component';
     // ContactofficepickempoolComponent,
     // InvitenewplayerComponent,
     // PlayoffComponent,
-    // WelcomeComponent,
+    WelcomeComponent,
     // ChatdashboardComponent,
     // ChathomeComponent,
     // NewchatComponent,
     // AddchatComponent,
   ],
   providers: [
-    AppService,
-    UsersService,
-    SubscriptionService,
-    LeagueService,
-    NotesService,
-    SchedulesService,
-    ScoreService,
-    MakePickService,
-    InviteService,
-    ViewPlayersService,
-    HeadToHeadService,
-    StatisticsService,
-    LeaderService,
-    ContactService,
-    PlayoffService,
-    ChatService,
+    // AppService,
+    // UsersService,
+    // SubscriptionService,
+    // LeagueService,
+    // NotesService,
+    // SchedulesService,
+    // ScoreService,
+    // MakePickService,
+    // InviteService,
+    // ViewPlayersService,
+    // HeadToHeadService,
+    // StatisticsService,
+    // LeaderService,
+    // ContactService,
+    // PlayoffService,
+    // ChatService,
   ],
   schemas: [NO_ERRORS_SCHEMA],
 })
